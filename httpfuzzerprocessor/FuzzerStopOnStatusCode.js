@@ -73,5 +73,5 @@ function getRequiredParamsNames(){
  * to input dynamic data into the script, from the user interface
 */
 function getOptionalParamsNames(){
-	return ["exampleParam3"];
+	// return ["exampleParam3"];
 }
