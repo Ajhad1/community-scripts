@@ -53,10 +53,12 @@ function processResult(utils, fuzzResult){
     // var condition = true;
     // if (condition)
     //    fuzzResult.addCustomState("Key Custom State", "Message Contains X")
-	if (fuzzResult.getHttpMessage().getResponseHeader().getStatusCode() == utils.getParameters().get(STATUS_CODE_PARAM))
+	if (fuzzResult.getHttpMessage().getResponseHeader().getStatusCode() == utils.getParameters().get(STATUS_CODE_PARAM)) {
 		utils.stopFuzzer();
-    return true;
+	}
+	return true;
 }
+
 
 /**
  * This function is called during the script loading to obtain a list of the names of the required configuration parameters,
