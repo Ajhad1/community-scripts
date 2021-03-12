@@ -66,7 +66,7 @@ function processResult(utils, fuzzResult){
  * to input dynamic data into the script, from the user interface
 */
 function getRequiredParamsNames(){
-	return [STATUS_CODE_PARAM]
+	return [STATUS_CODE_PARAM];
 }
 
 /**
