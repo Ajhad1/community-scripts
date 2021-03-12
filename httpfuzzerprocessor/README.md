@@ -63,6 +63,7 @@ function processResult(utils, fuzzResult){
 
     return true;
 }
+
 /**
  * This function is called during the script loading to obtain a list of the names of the required configuration parameters,
  * that will be shown in the Add Message Processor Dialog for configuration. They can be used
