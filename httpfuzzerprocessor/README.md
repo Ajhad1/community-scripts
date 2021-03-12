@@ -59,7 +59,7 @@ function processResult(utils, fuzzResult){
 
     var condition = true;
     if (condition)
-        fuzzResult.addCustomState("Key Custom State", "Message Contains X")
+        fuzzResult.addCustomState("Key Custom State", "Message Contains X");
 
     return true;
 }
@@ -70,7 +70,7 @@ function processResult(utils, fuzzResult){
  * to input dynamic data into the script, from the user interface
 */
 function getRequiredParamsNames(){
-	return ["exampleParam1"]
+	return ["exampleParam1"];
 }
 
 /**
